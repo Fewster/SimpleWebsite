@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+	<style type="text/css">
+body {
+  font: 14px/1.4 arial;
+}
+
+.imgWrap {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+}
+
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+</head>
+
+<body>
+
+<div class="imgWrap">
+  <img src="logo1.png" alt="polaroid" />
+  <p class="imgDescription">This image looks super neat.</p>
+</div>
+
+</body>
+
+</html>

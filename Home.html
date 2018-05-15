@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Home</title>
+<style type="text/css">
+
+#Layout{
+	background-color: #232323;
+	text-transform: none;
+	text-decoration: none;
+	width:1200px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;	
+}
+
+li {
+    float: left;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #232323;	
+}
+
+li a:hover:not(.active) {
+	text-decoration:underline;
+}
+
+.active {
+	  color: white;
+	  font-weight: bold;
+	  font-family: "Arial Nova Light";
+	  background-color:#FF3300;
+  }
+  
+.NavBar{
+	background-color: #232323;
+	clear: both;
+	height: auto;
+	width: auto;
+	float: none;
+	border-bottom:thin;
+	border-bottom-color:black;
+	border-bottom-style:ridge;
+}
+
+.HPcontent1{
+	width: auto;
+	height: 320px;
+	background-color: #252525;
+	border-top: thin;
+	border-top-color: black;
+	border-top-style: ridge;
+}
+
+.HPcontent2{
+	width: auto;
+	height: 320px;
+	background-color: #252525;
+	border-top: thin;
+	border-top-color: black;
+	border-top-style: ridge;
+	margin-top:16px;
+
+}
+
+.hyplinks{
+	color: #FF3300;
+	text-decoration:none;
+	font-weight:bolder;
+}
+
+.hyplinksWhite{
+	color: white;
+	text-decoration:none;
+	font-weight:bolder;
+}
+
+.hyplinksWhite:hover{
+	color: #FF3300;
+	text-decoration:none;
+	font-weight:bolder;
+}
+
+h1{
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:large;
+	font-weight:bold;
+	color:white;
+}
+
+p{
+	color:white;
+}
+
+h2{
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+	font-weight:lighter;
+	color:white;
+}
+
+h3{
+	color:white;
+	font-size:small;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:lighter;
+}
+
+.latestNewsitems {
+	float: left;
+	height: 340px;
+	width: 300px;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.latestNewsitems:hover{
+	opacity: 0.4;
+    filter: alpha(opacity=40);
+
+}
+
+div.img {
+    margin: 5px;
+    float: left;
+    width: 236px;
+	
+
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.img:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+</style>
+</head>
+
+<body id="Layout">
+	<ul class="NavBar">
+		<li><a href="Home.html"><img style="height:128px; width:128px; background-color:aqua" src="Logo.png" alt="Logo"/></a></li>
+		<li style="	border-bottom: thin; border-bottom: solid; border-bottom-color: #FF3300;"><a class="active" href="Home.html">Home</a></li>
+		<li style="	border-bottom: thin; border-bottom: solid; border-bottom-color: #FF3300;"><a href="Games.html">Games</a></li>
+	    <li style="	border-bottom: thin; border-bottom: solid; border-bottom-color: #FF3300;"><a href="Media.html">Media</a></li>
+	    <li style="	border-bottom: thin; border-bottom: solid; border-bottom-color: #FF3300;"><a href="Community.php">Community</a></li>
+	    <li style="	border-bottom: thin; border-bottom: solid; border-bottom-color: #FF3300;"><a href="About.html">About</a></li>
+	    <li style="float:right; border-bottom: thin; border-bottom: solid; border-bottom-color: #FF3300;"><a href="Settings.html">Settings</a></li>
+	    <li style="float:right; border-bottom: thin; border-bottom: solid; border-bottom-color: #FF3300;"><a href="Login.html"><b>Login</b></a></li>
+	</ul>
+
+<div class="HPcontent1">
+	
+	<div> <!-- LatestNews Opening DIV -->
+		<h1 style="padding-left:16px">Lastest News</h1>
+		
+		<div class="latestNewsitems" style="margin-left:180px"><img src="mobilegame001.jpg" alt="Tinywings" style="height:128px; width:236px; border-radius:15px">
+			<h2><a class="hyplinks" href="#Tinywings">TINY WINGS - New Update!</a></h2>
+				<p style="font-family:Arial, Helvetica, sans-serif; font-size:small">Bringing New Levels, New Wings and... <br> <b>Power Ups!</b> Are you Ready?</p>
+		</div>
+		
+		<div class="latestNewsitems"><img src="mobilegame002.jpg" alt="HAYPIDRAGONS" style="height:128px; width:236px; border-radius:15px">
+			<h2><a class="hyplinks" href="#HAYPIDRAGONS">HAYPI DRAGONS - Coming Soon!</a></h2>
+				<p style="font-family:Arial, Helvetica, sans-serif; font-size:small">The Dragons Are Going on an <br> <b>EPIC</b> Adventure! Who Will Be Your Favorite?</p>
+		</div>
+		
+		<div class="latestNewsitems"><img src="mobilegame003.jpg" alt="BIKESTUNT3D" style="height:128px; width:236px; border-radius:15px">
+			<h2><a class="hyplinks" href="#BIKESTUNT3D">BIKE STUNT 3D - Out Now!</a></h2>
+				<p style="font-family:Arial, Helvetica, sans-serif; font-size:small">Bike Stunt 3D is available <b>now</b> <br> on iOS, Android and Windows 10.</p>
+		</div>
+				
+				<h3 style="padding-top:220px; float:right; margin-right:64px"><a href="Media.html" class="hyplinksWhite">More..</a></h3>	
+	</div> <!-- LatestNews Closing DIV -->
+	
+</div>
+
+<div class="HPcontent2" style="height:280px">
+	
+	<div> <!-- New Releases Opening DIV -->
+		<h1 style="position:absolute; padding-left:16px">New Releases</h1>
+		<div>
+			<div class="img" style="margin-left:180px"><img src="newrelease1.jpg" alt="Subways surfers" style="height:128px; width:236px; border-radius:15px">
+				<div><h2><a class="hyplinks" href="#Tinywings" style="float:left">SUBWAY SURFERS</a><b style="color:#252525">-------</b>FREE</h2></div>
+			</div>
+			
+			<div class="img" style="margin-left:64px"><img src="newrelease2.jpg" alt="Car Race 3d" style="height:128px; width:236px; border-radius:15px">
+				<h2><a class="hyplinks" href="#HAYPIDRAGONS">CAR RACE 3D</a><b style="color:#252525">--------------</b>£1.72</h2>
+			</div>
+			
+			<div class="img" style="margin-left:64px"><img src="mobilegame003.jpg" alt="Bike Stunt 3D" style="height:128px; width:236px; border-radius:15px">
+				<h2><a class="hyplinks" href="#BIKESTUNT3D">BIKE STUNT 3D</a><b style="color:#252525">--------------</b>£2.79</h2>
+			</div>
+		</div>
+					
+	</div>
+				<h3 style="padding-top:170px; float:right; margin-right:64px"><a href="Games.html" class="hyplinksWhite">More..</a></h3>	
+</div> <!-- New Releases Closing DIV -->
+	
+</body>
+
+</html>
